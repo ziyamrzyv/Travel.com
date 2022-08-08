@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 *{
@@ -76,3 +77,83 @@ button:hover{
   background-color: white;
   color: black;
 }
+=======
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.all{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/backgroundimage.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+.name{
+  font-size: 70px;
+  color: white;
+  font-family: fantasy;
+}
+
+.uzanti{
+  color: black;
+}
+
+
+button{
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  border-radius: 22px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+}
+
+.nav{
+  width: 85%;
+  height: 15%;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.main{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+}
+
+h1{
+  font-size: 65px;
+  margin: 10px 0 30px;
+}
+
+small{
+  font-size: 17px;
+  text-transform: capitalize;
+  letter-spacing: 1.8px;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+>>>>>>> f6406aa017990942b07648672cd6a8ff164b5564
